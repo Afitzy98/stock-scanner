@@ -1,0 +1,14 @@
+{
+  "name": "stock-scanner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.27.1",
+    "simple-statistics": "^7.8.0"
+  },
+  "scripts": {
+    "tickers": "node get-tickers.js",
+    "check": "node check-tickers.js"
+  }
+}
